@@ -1,5 +1,5 @@
 # homebrew-tap
 
 ```sh
-brew install dhruv-hhai/tap/share
+brew tap dhruv-hhai/tap && brew install share
 ```
