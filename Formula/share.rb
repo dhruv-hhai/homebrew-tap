@@ -1,14 +1,14 @@
 class Share < Formula
   desc "Send folders/files to friends using croc"
   homepage "https://github.com/dhruv-hhai/share"
-  url "https://github.com/dhruv-hhai/share/archive/refs/tags/v1.2.3.tar.gz"
-  sha256 "32a63eb6ff179f2a56f56ac1b20f82f5370fa74a40cc0ac4287497d7c2deccbe"
+  url "https://github.com/dhruv-hhai/share/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "1302562ffc64435b9e0c9c7f475df6cec32fe76a28a1b0cd30b1ff23c62228e3"
   license "MIT"
 
   depends_on "croc"
 
   def install
-    libexec.install "share", "tools"
+    libexec.install "share", "tools", "lib"
     bin.install_symlink libexec/"share"
   end
 
