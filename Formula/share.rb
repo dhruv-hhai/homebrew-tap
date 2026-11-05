@@ -1,8 +1,8 @@
 class Share < Formula
   desc "Send folders/files to friends using croc"
   homepage "https://github.com/dhruv-hhai/share"
-  url "https://github.com/dhruv-hhai/share/archive/refs/tags/v2.0.2.tar.gz"
-  sha256 "2042302e4c1ba9c100d004db934da47720654798387e4bc561cc08a0900b7fc1"
+  url "https://github.com/dhruv-hhai/share/archive/refs/tags/v2.0.3.tar.gz"
+  sha256 "69e2c480d942ac566fc3e8774fe37ba5da0c360b2767fca2e639c91edf3457d5"
   license "MIT"
 
   depends_on "croc"
